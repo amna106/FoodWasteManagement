@@ -1,0 +1,104 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f4f4;
+}
+
+/* Welcome Page */
+
+.welcome{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#dff5e1;
+}
+
+.welcome-box{
+  background:white;
+  padding:50px;
+  width:450px;
+  border-radius:10px;
+  text-align:center;
+}
+
+.welcome-box h1{
+  color:green;
+}
+
+.welcome-btns{
+  margin-top:30px;
+}
+
+.welcome-btns a{
+  text-decoration:none;
+  background:green;
+  color:white;
+  padding:12px 20px;
+  margin:10px;
+  border-radius:5px;
+}
+
+/* Navbar */
+
+.navbar{
+  background:green;
+  color:white;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+}
+
+/* Forms */
+
+.form-container{
+  width:400px;
+  margin:40px auto;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+}
+
+.form-container h1{
+  text-align:center;
+}
+
+.form-container input,
+.form-container select{
+  width:100%;
+  padding:10px;
+  margin-bottom:15px;
+}
+
+.form-container button{
+  width:100%;
+  padding:12px;
+  background:green;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+/* Dashboard */
+
+.dashboard{
+  padding:30px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+}
